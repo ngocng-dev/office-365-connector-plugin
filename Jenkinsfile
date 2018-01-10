@@ -4,6 +4,7 @@
 @Library('pipeline-library') _
 
 buildPlugin(
+    platforms: ['linux'],
     findbugs: [
         unstableTotalAll: '0'
     ],
